@@ -1,4 +1,5 @@
-//Cari Bilgileri
+//Cari Bilgileri SQL Kod
+------------------------------------------------------------------------------------
 SELECT  [KOD]
       ,[CARI_KOD]
       ,[CARI_UNVAN]
@@ -17,8 +18,8 @@ SELECT  [KOD]
       ,[AKTAR]
       ,[PASIF]
   FROM [Jenerator].[dbo].[CARI]
-
-// Servis Bilgileri
+---------------------------------------------------------------------------------------
+// Servis Bilgileri ilgileri SQL Kod
 
 SELECT  [KOD]
       ,[FORM_NO]
@@ -73,6 +74,7 @@ SELECT  [KOD]
       ,[SERVIS]
       ,[TESLIM]
   FROM [Jenerator].[dbo].[SERVIS]
+-----------------------------------------------------------------------------------------
 
 
 
